@@ -1,0 +1,13 @@
+#sum of all numbers in a list
+
+def sum_of_list_elements(list):
+    s=0
+    for val in list:
+        s=s+val
+    print("sum of numbers in a list=",s)
+
+list=[8,5,2,4,5,11,10]
+sum_of_list_elements(list)
+
+#output:
+#sum of numbers in a list= 45
