@@ -1,0 +1,8 @@
+#reverse order in the given string
+s=input("enter string:")
+rev=s[::-1]
+print("reverse string=",rev)
+
+#output:
+#enter string:vaijapur
+#reverse string= rupajiav
