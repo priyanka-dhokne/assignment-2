@@ -1,0 +1,15 @@
+#remove ith character from the string
+s=input("Enter String:")
+print("original string=",s)
+newstr=" "
+pos=int(input("enter the position to remove character:"))
+for i in range(len(s)):
+    if(i!=pos):
+        newstr=newstr+s[i]
+print("after removal character string=",newstr)
+
+#output:
+#Enter String:rbnb
+#original string= rbnb
+#enter the position to remove character:2
+#after removal character string=  rbb
